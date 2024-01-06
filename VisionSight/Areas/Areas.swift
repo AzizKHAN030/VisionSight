@@ -9,7 +9,11 @@ import SwiftUI
 
 struct Areas: View {
     var body: some View {
-        Text("Hollasss, World!")
+        ZStack {
+            NavigationStack {
+                NavigationToAreas()
+            }
+        }
     }
 }
 
